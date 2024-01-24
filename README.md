@@ -1,2 +1,3 @@
 # Palindrome-Checker
 A freecodecamp self project
+# A palindrome is a string that reads the same backwards and forward....
