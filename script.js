@@ -27,6 +27,7 @@ const palindrome = () => {
 // Run the afore mentioned function on click
 button.addEventListener("click", () => {
   palindrome();
+  // Empty the input field after clicking the button
   userInput.value = "";
 });
 
