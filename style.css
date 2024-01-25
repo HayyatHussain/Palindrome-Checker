@@ -4,11 +4,20 @@
   box-sizing: border-box;
 }
 
-#container {
+body {
   display: flex;
   height: 100vh;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   flex-gap: 30px;
+  align-items: center;
+}
+
+#container {
+  height: 10%;
+  width: 10%;
+  border: 2px solid black;
+  text-align: center;
+  color: white;
+  background-color: black;
 }
