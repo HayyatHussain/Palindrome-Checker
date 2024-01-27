@@ -16,11 +16,10 @@ const palindrome = () => {
   // Conditions to check user input validity
   if (lowerCaseStr.length == 0) {
     alert("Please input a value");
-    return;
   } else if (lowerCaseStr == reverseStr) {
-      output.innerText = `${userInput.value} is a palindrome`;
+      output.innerHTML = `<p>${userInput.value} is a palindrome</p>`;
   } else {
-    output.innerText = `${userInput.value} is not a palindrome`;
+    output.innerHTML = `<p>${userInput.value} is not a palindrome</p>`;
   }
 }
 

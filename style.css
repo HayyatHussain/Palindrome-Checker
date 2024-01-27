@@ -22,11 +22,12 @@
   justify-content: top;
   align-items: center;
   min-height: 75vh;
-  width: 37vw;
+  max-width: 37vw;
   gap: 50px;
   background-color: rgb(1, 1, 46);
-  border-radius: 8px;
-  padding: 2vw 1vw;
+  border-radius: 10px;
+  padding: 2vw 3vw;
+  border: 3px solid lime;
 }
 
 .p-content {
@@ -34,4 +35,15 @@
   color: chartreuse;
   border-radius: 14px;
   padding: 1vw;
+}
+
+input {
+  width: 150px;
+  height: 21px;
+  transition: all 150ms;
+  padding-left: 12px;
+}
+
+input:focus {
+  width: 200px;
 }
